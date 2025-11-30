@@ -1,0 +1,22 @@
+
+*.env
+*.log
+config.ini
+.vscode/
+.env_vars      # Добавляем для переменных SMTP
+
+# Project files / Игнорировать временные файлы
+
+__pycache__/
+*.pyc
+*.pyd
+venv/
+.pytest_cache/
+
+# Visual Studio / IDE (Скрытые ЛОКАЛЬНЫЕ файлы, которые НЕ НУЖНЫ на GitHub)
+*.suo            # Локальные пользовательские настройки решения
+*.user           # Файлы локальных пользовательских настроек
+/bin/            # Сборочные папки
+/obj/
+.vs/
+*.sln.docstates
